@@ -116,11 +116,6 @@ public class MyArrayDeque<E> implements Deque<E> {
         return size == 0;
     }
 
-
-    //////////////////////////////////////////////////////////////////////
-    // --- НЕНУЖНЫЕ МЕТОДЫ (заглушки для интерфейса), тесты их НЕ ТРОГАЮТ ---
-    //////////////////////////////////////////////////////////////////////
-
     @Override public boolean remove(Object o) { throw new UnsupportedOperationException(); }
     @Override public boolean contains(Object o) { throw new UnsupportedOperationException(); }
     @Override public boolean containsAll(Collection<?> c) { throw new UnsupportedOperationException(); }
